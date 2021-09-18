@@ -26,3 +26,22 @@ class BackScreen : Screen {
     }
 }
 ```
+
+### How to use
+
+First add jitpack repository
+
+```gradle
+repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+}
+```
+
+Then add this to your dependencies
+
+```gradle
+dependencies {
+    implementation 'com.github.Dussim:voyager-addon-dialog-navigator:1.0.0-alpha01'
+}
+```
